@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    border: 5px solid blueviolet;
+    border-radius: 40px;
+    width: 1000px;
+    height: 1500px;
+    color: black;
+    margin: 20px auto;
+    background: linear-gradient(rgb(216, 216, 237),, #EFB0C9);
+    
+}
+.visits-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#paris-pic {
+    background-image: url("./images/Paris2.jpg");
+    background-size: cover;
+    width: 900px;
+    height: 300px;
+
+}
+.header {
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    align-items:center
+}
+#intro {
+    width: 900px;
+    
+}
+.eiffel-section {
+    width: 250px;
+}
+#eiffel-pic {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-image: url("./images/Eiffel tower.jpg");
+    background-size: cover;
+}
+#eiffel-pic:hover {
+    background-image: url("./images/paris2.jpg");
+    
+}
+.champs-ely-section {
+    width: 280px;
+    
+}
+#champs-elyses-pic {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-image: url("./images/Chams-elyses.jpg");
+    background-size: cover;
+}
+#champs-elyses-pic:hover {
+    background-image: url("./images/arc-triomphe2.avif");
+}
+.chateau-vers-section {
+    width: 280px;
+    
+}
+#chateau-versa-pic {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-image: url("./images/chateau-versailles.avif");
+    background-size: cover;
+}
+
+#chateau-versa-pic:hover {
+    background-image: url("./images/chateau-versailles2.jpg");
+}
+.about-us{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#guide-sec {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+#guide-img {
+    width: 130px;
+    height: 120px;
+    padding: 3px 6px;
+    
+}
+#guide-img2 {
+    width: 130px;
+    height: 120px;
+    padding: 3px 6px;
+    
+}
+#guide1 {
+    border: 4px dotted purple;
+    width: 300px;
+    height: 250px;
+    background-color: #bde0fe;
+    padding: 6px 12px;
+    margin: 0px 30px;
+    border-radius: 20%;
+    
+}
+#guide2 {
+    border: 4px dotted purple;
+    width: 300px;
+    height: 250px;
+    background-color: #bde0fe;
+    padding: 6px 12px;
+    margin: 0px 30px;
+    border-radius: 20%;
+}
+#title {
+    font-style: italic;
+}
+span {
+    background-color: #EFB0C9;
+    font-weight: bold;
+}
